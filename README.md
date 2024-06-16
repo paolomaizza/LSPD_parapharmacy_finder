@@ -11,17 +11,17 @@ Welcome to Parapharmacy Finder, an innovative application that allows you to sea
 
 ## Techonologies Used 
 
-•	Flask (FrontEnd) -Fast API (BackEnd)
-•	- **HTML**: Utilizzato per la struttura della pagina web.
-•	- **CSS**: Utilizzato per lo stile e il layout della pagina web.
-•	- **Bootstrap**: Libreria CSS per un design reattivo e componenti predefiniti.
-•	- **Leaflet**: Libreria JavaScript per mappe interattive.
-•	- **Leaflet Routing Machine**: Plugin per Leaflet per il routing e le direzioni.
-•	- **JavaScript**: Utilizzato per la logica della pagina e l'interattività.
-•	- **Fetch API**: Utilizzato per effettuare richieste HTTP per recuperare dati da un server.
-•	- **OpenStreetMap**: Utilizzato per le mappe e il geocoding degli indirizzi tramite API.
-•	- **Nominatim**: Servizio di geocoding utilizzato con OpenStreetMap per convertire indirizzi in coordinate geografiche.
-•	- **Bootstrap JS**: Libreria JavaScript per funzionalità di Bootstrap.
+- Flask (FrontEnd) -Fast API (BackEnd)
+- **HTML**: Utilizzato per la struttura della pagina web.
+- **CSS**: Utilizzato per lo stile e il layout della pagina web.
+- **Bootstrap**: Libreria CSS per un design reattivo e componenti predefiniti.
+- **Leaflet**: Libreria JavaScript per mappe interattive.
+- **Leaflet Routing Machine**: Plugin per Leaflet per il routing e le direzioni.
+- **JavaScript**: Utilizzato per la logica della pagina e l'interattività.
+- **Fetch API**: Utilizzato per effettuare richieste HTTP per recuperare dati da un server.
+- **OpenStreetMap**: Utilizzato per le mappe e il geocoding degli indirizzi tramite API.
+- **Nominatim**: Servizio di geocoding utilizzato con OpenStreetMap per convertire indirizzi in coordinate geografiche.
+- **Bootstrap JS**: Libreria JavaScript per funzionalità di Bootstrap.
 
 ## CSV Datasets Used in the Project
 
@@ -39,40 +39,40 @@ To use your application from the GitHub repository, follow these steps:
 Open a terminal and clone the repository:
 bash
 Copy code
-git clone https://github.com/paolomaizza/Parapharmacy_Finder.git
-cd Parapharmacy_Finder
+**git clone https://github.com/paolomaizza/Parapharmacy_Finder.git**
+**cd Parapharmacy_Finder**
 
 ## Step 2: Set Up the Environment
-2.1. Create a Virtual Environment
+- **2.1.** Create a Virtual Environment
 Create and activate a virtual environment to manage dependencies:
 bash
 Copy code
-python3 -m venv venv
+- **python3 -m venv venv**
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-2.2. Install Dependencies
+- **2.2.** Install Dependencies
 Install the required Python packages:
 bash
 Copy code
-pip install -r requirements.txt
+- **pip install -r requirements.txt**
 
 ## Step 3: Set Up Docker (If Applicable)
 If your project uses Docker, ensure Docker is installed and running. Build and run the Docker containers:
 bash
 Copy code
-docker-compose up --build
+- **docker-compose up --build**
 
 ## Step 4: Run the Application
 If not using Docker, run the application directly. This might involve starting a web server or running a main script. For example:
 bash
 Copy code
-python backend/app/main.py
+- **python backend/app/main.py**
 
 ## Step 5: Access the Application
-Open a web browser and navigate to the appropriate URL, typically http://localhost:8000 or another specified port.
+Open a web browser and navigate to the appropriate URL,  **http://localhost:8080** o.
 
 ## Contributing
 
-The Parapharmacy Finder project was developed entirely by Paolo Maizza, a student at Ca' Foscari University of Venice and H-Farm College. Suggestions and feedback for improving the application are welcome. The next steps for the app will include providing more information on the products available in parapharmacies and enhancing the search efficiency.
+The Parapharmacy Finder project was developed entirely by **Paolo Maizza, a student at Ca' Foscari University of Venice and H-Farm College**. Suggestions and feedback for improving the application are welcome. The next steps for the app will include providing more information on the products available in parapharmacies and enhancing the search efficiency.
 
 Please feel free to fork the repository and submit a pull request for any improvements. 
 
