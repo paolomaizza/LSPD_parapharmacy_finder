@@ -1,6 +1,6 @@
-## Introduction
+# Parapharmacy Finder
 
-Welcome to Parapharmacy Finder, an innovative application that allows you to search for the nearest retail location selling over-the-counter (OTC) medications across Italy. Additionally, you can check the availability of your desired product (either SOP or OTP) and plan your trip by adding multiple stops, receiving a precise itinerary.
+Welcome to Parapharmacy Finder, an innovative application designed to help you locate the nearest retail locations selling over-the-counter (OTC) medications across Italy. Additionally, you can check the availability of your desired product (either SOP or OTP) and plan your trip by adding multiple stops, receiving a precise itinerary.
 
 ## Features
 
@@ -9,73 +9,66 @@ Welcome to Parapharmacy Finder, an innovative application that allows you to sea
 - **Directions to Arrival:** Get detailed directions to your selected parapharmacy.
 - **User-friendly Interface:** Enjoy an intuitive and easy-to-navigate interface.
 
-## Techonologies Used 
+## Technologies Used
 
-- Flask (FrontEnd) -Fast API (BackEnd)
-- **HTML**: Utilizzato per la struttura della pagina web.
-- **CSS**: Utilizzato per lo stile e il layout della pagina web.
-- **Bootstrap**: Libreria CSS per un design reattivo e componenti predefiniti.
-- **Leaflet**: Libreria JavaScript per mappe interattive.
-- **Leaflet Routing Machine**: Plugin per Leaflet per il routing e le direzioni.
-- **JavaScript**: Utilizzato per la logica della pagina e l'interattività.
-- **Fetch API**: Utilizzato per effettuare richieste HTTP per recuperare dati da un server.
-- **OpenStreetMap**: Utilizzato per le mappe e il geocoding degli indirizzi tramite API.
-- **Nominatim**: Servizio di geocoding utilizzato con OpenStreetMap per convertire indirizzi in coordinate geografiche.
-- **Bootstrap JS**: Libreria JavaScript per funzionalità di Bootstrap.
+- **Flask (Frontend)**
+- **FastAPI (Backend)**
+- **HTML:** Used for the structure of the web page.
+- **CSS:** Used for styling and layout.
+- **Bootstrap:** CSS library for responsive design and predefined components.
+- **Leaflet:** JavaScript library for interactive maps.
+- **Leaflet Routing Machine:** Plugin for Leaflet for routing and directions.
+- **JavaScript:** Used for page logic and interactivity.
+- **Fetch API:** Used for making HTTP requests to retrieve data from a server.
+- **OpenStreetMap:** Used for maps and geocoding addresses via API.
+- **Nominatim:** Geocoding service used with OpenStreetMap to convert addresses into geographic coordinates.
+- **Bootstrap JS:** JavaScript library for Bootstrap functionalities.
 
 ## CSV Datasets Used in the Project
 
 This section outlines the essential datasets to run the project:
 
-- **Parafarmacie.csv:** List of all parapharmacies in Italy.
+- **parafarmacie.csv:** List of all parapharmacies in Italy.
 - **SOP-OTP.csv:** List of all SOP or OTP products that can be sold by parapharmacies.
 
+## Steps to Use
 
-## Step to use
+To use the application from the GitHub repository, follow these steps:
 
-To use your application from the GitHub repository, follow these steps:
-
-## Step 1: Clone the Repository
+```bash
+# Step 1: Clone the Repository
 Open a terminal and clone the repository:
-bash
-Copy code
-**git clone https://github.com/paolomaizza/Parapharmacy_Finder.git**
-**cd Parapharmacy_Finder**
 
-## Step 2: Set Up the Environment
-- **2.1.** Create a Virtual Environment
+git clone https://github.com/paolomaizza/LSPD_parapharmacy_finder.git
+cd LSPD_parapharmacy_finder
+
+# Step 2: Set Up the Environment
 Create and activate a virtual environment to manage dependencies:
-bash
-Copy code
-- **python3 -m venv venv**
+
+python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-- **2.2.** Install Dependencies
+
 Install the required Python packages:
-bash
-Copy code
-- **pip install -r requirements.txt**
 
-## Step 3: Set Up Docker (If Applicable)
+pip install -r requirements.txt
+
+# Step 3: Set Up Docker (If Applicable)
 If your project uses Docker, ensure Docker is installed and running. Build and run the Docker containers:
-bash
-Copy code
-- **docker-compose up --build**
 
-## Step 4: Run the Application
+docker-compose up --build
+
+# Step 4: Run the Application
 If not using Docker, run the application directly. This might involve starting a web server or running a main script. For example:
-bash
-Copy code
-- **python backend/app/main.py**
 
-## Step 5: Access the Application
-Open a web browser and navigate to the appropriate URL,  **http://localhost:8080** o.
+python backend/app/main.py
 
-## Contributing
+# Step 5: Access the Application
+Open a web browser and navigate to the appropriate URL: http://localhost:8080
 
-The Parapharmacy Finder project was developed entirely by **Paolo Maizza, a student at Ca' Foscari University of Venice and H-Farm College**. Suggestions and feedback for improving the application are welcome. The next steps for the app will include providing more information on the products available in parapharmacies and enhancing the search efficiency.
+## Contributing 
+The Parapharmacy Finder project was developed entirely by Paolo Maizza, a student at Ca' Foscari University of Venice and H-Farm College. Suggestions and feedback for improving the application are welcome. The next steps for the app will include providing more information on the products available in parapharmacies and enhancing search efficiency.
 
-Please feel free to fork the repository and submit a pull request for any improvements. 
+Please feel free to fork the repository and submit a pull request for any improvements.
 
- 
-## Contacts 
-For any inquiries or further assistance, Project Lead: 890579@stud.unive.it
+## Contacts
+For any inquiries or further assistance, contact Project Lead: 890579@stud.unive.it.
