@@ -9,20 +9,20 @@ Welcome to Parapharmacy Finder, an innovative application that allows you to sea
 - **Directions to Arrival:** Get detailed directions to your selected parapharmacy.
 - **User-friendly Interface:** Enjoy an intuitive and easy-to-navigate interface.
 
-## Techonologies Used 
-- **Flask (FrontEnd) -Fast API (BackEnd)**
-- **HTML**: Utilizzato per la struttura della pagina web.
-- **CSS**: Utilizzato per lo stile e il layout della pagina web.
-- **Bootstrap**: Libreria CSS per un design reattivo e componenti predefiniti.
-- **Leaflet**: Libreria JavaScript per mappe interattive.
-- **Leaflet Routing Machine**: Plugin per Leaflet per il routing e le direzioni.
-- **JavaScript**: Utilizzato per la logica della pagina e l'interattività.
-- **Fetch API**: Utilizzato per effettuare richieste HTTP per recuperare dati da un server.
-- **OpenStreetMap**: Utilizzato per le mappe e il geocoding degli indirizzi tramite API.
-- **Nominatim**: Servizio di geocoding utilizzato con OpenStreetMap per convertire indirizzi in coordinate geografiche.
-- **Bootstrap JS**: Libreria JavaScript per funzionalità di Bootstrap.
+# Techonologies Used 
+- **Flask (FrontEnd) - FastAPI (BackEnd)**
+- **HTML**: Used for the structure of the web page.
+- **CSS**: Used for the style and layout of the web page.
+- **Bootstrap**: CSS library for responsive design and predefined components.
+- **Leaflet**: JavaScript library for interactive maps.
+- **Leaflet Routing Machine**: Plugin for Leaflet for routing and directions.
+- **JavaScript**: Used for the logic and interactivity of the page.
+- **Fetch API**: Used to make HTTP requests to retrieve data from a server.
+- **OpenStreetMap**: Used for maps and address geocoding via API.
+- **Nominatim**: Geocoding service used with OpenStreetMap to convert addresses into geographic coordinates.
+- **Bootstrap JS**: JavaScript library for Bootstrap functionalities.
 
-## CSV Datasets Used in the Project
+# CSV Datasets Used in the Project
 
 This section outlines the essential datasets to run the project:
 
@@ -30,7 +30,7 @@ This section outlines the essential datasets to run the project:
 - **SOP-OTP.csv:** List of all SOP or OTP products that can be sold by parapharmacies.
 
 
-### Step to run 
+# Step to run 
 
 ## Step 1: Clone the Repository
 Open a terminal and clone the repository:
@@ -41,7 +41,7 @@ Open a terminal and clone the repository:
 ## Step 2: Set Up the Environment
 Create and activate a virtual environment to manage dependencies, use the method you prefer.
 
-# Step 2A:  Python Method 
+### Step 2A:  Python Method 
 
 **python3 -m venv**
 **python3 -m venv venvv** 
@@ -51,7 +51,7 @@ Create and activate a virtual environment to manage dependencies, use the method
 **python backend/app/main.py**
 **python frontend/app/main.py**
 
-# Step 2B:  Docker Method 
+### Step 2B:  Docker Method 
 
 **cd lspd**
 **docker-compose up --build**
@@ -59,7 +59,7 @@ Create and activate a virtual environment to manage dependencies, use the method
 ## Step 3: Access the Application
 Open a web browser and navigate to the appropriate URL: **http://localhost:8080**
 
-## Contributing
+# Contributing
 
 The Parapharmacy Finder project was developed entirely by **Paolo Maizza, a student at Ca' Foscari University of Venice and H-Farm College**. Suggestions and feedback for improving the application are welcome. The next steps for the app will include providing more information on the products available in parapharmacies and enhancing the search efficiency.
 
