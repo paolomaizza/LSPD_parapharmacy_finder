@@ -35,26 +35,26 @@ This section outlines the essential datasets to run the project:
 ## Step 1: Clone the Repository
 Open a terminal and clone the repository:
 
-**git clone https://github.com/paolomaizza/LSPD_parapharmacy_finder.git**
-**cd LSPD_parapharmacy_finder**
+- **git clone https://github.com/paolomaizza/LSPD_parapharmacy_finder.git**
+- **cd LSPD_parapharmacy_finder**
 
 ## Step 2: Set Up the Environment
 Create and activate a virtual environment to manage dependencies, use the method you prefer.
 
 ### Step 2A:  Python Method 
 
-**python3 -m venv**
-**python3 -m venv venvv** 
-**source venvv/bin/activate**
-**pip instore -r backend/requirements.txt**
-**pip instore -r frontend/requirements.txt**
-**python backend/app/main.py**
-**python frontend/app/main.py**
+- **python3 -m venv**
+- **python3 -m venv venvv** 
+- **source venvv/bin/activate**
+- **pip instore -r backend/requirements.txt**
+- **pip instore -r frontend/requirements.txt**
+- **python backend/app/main.py**
+- **python frontend/app/main.py**
 
 ### Step 2B:  Docker Method 
 
-**cd lspd**
-**docker-compose up --build**
+- **cd lspd**
+- **docker-compose up --build**
 
 ## Step 3: Access the Application
 Open a web browser and navigate to the appropriate URL: **http://localhost:8080**
